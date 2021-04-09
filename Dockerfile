@@ -18,6 +18,7 @@ FROM busybox as static
 RUN wget https://github.com/containernetworking/plugins/releases/download/v0.8.2/cni-plugins-linux-amd64-v0.8.2.tgz
 RUN tar xvfz cni-plugins-linux-amd64-v0.8.2.tgz
 RUN cp ./static /bin/static
+RUN cp ./dhcp /bin/dhcp
 RUN wget https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64
 RUN cp ./jq-linux64 /bin/jq
 RUN chmod +x /bin/static /bin/jq
@@ -28,3 +29,4 @@ COPY vfioveth .
 COPY --from=nfvpe/sriov-cni:v2.5 /usr/bin/sriov .
 COPY --from=static /bin/jq .
 COPY --from=static /bin/static .
+COPY --from=static /bin/dhcp .
