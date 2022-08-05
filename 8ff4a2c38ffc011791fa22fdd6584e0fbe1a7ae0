@@ -16,6 +16,24 @@
       "message": "Post merge job failed. Looks like we need to bump VERSION to 1.1.7",
       "revId": "8ff4a2c38ffc011791fa22fdd6584e0fbe1a7ae0",
       "serverId": "2a2bfe1b-c5c2-48ed-9ac8-16438ab24388"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a12629d_be6df1c0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000640
+      },
+      "writtenOn": "2022-08-05T22:09:24Z",
+      "side": 1,
+      "message": "I will do it.",
+      "parentUuid": "300a66d4_d2f72ba2",
+      "revId": "8ff4a2c38ffc011791fa22fdd6584e0fbe1a7ae0",
+      "serverId": "2a2bfe1b-c5c2-48ed-9ac8-16438ab24388"
     }
   ]
 }
