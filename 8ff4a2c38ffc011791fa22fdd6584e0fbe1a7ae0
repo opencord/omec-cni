@@ -1,0 +1,8 @@
+Verified+1: Jenkins Technical User <do-not-reply@opennetworking.org>
+Code-Review+1: Charles Chan <charles.chan@intel.com>
+Code-Review+2: Zack Williams <zack.williams@intel.com>
+Submitted-by: Zack Williams <zack.williams@intel.com>
+Submitted-at: Fri, 05 Aug 2022 21:36:44 +0000
+Reviewed-on: https://gerrit.opencord.org/c/omec-cni/+/33130
+Project: omec-cni
+Branch: refs/heads/master
