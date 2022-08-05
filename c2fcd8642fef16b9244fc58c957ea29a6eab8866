@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5765a36_bb2adc51",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2022-08-05T19:17:19Z",
+      "side": 1,
+      "message": "Some file has missing license header (e.g. README). Please use \"reuse\" tool to make sure the entire repo has no licensing issue.",
+      "revId": "c2fcd8642fef16b9244fc58c957ea29a6eab8866",
+      "serverId": "2a2bfe1b-c5c2-48ed-9ac8-16438ab24388"
+    }
+  ]
+}
